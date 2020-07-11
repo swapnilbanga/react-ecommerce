@@ -4,8 +4,10 @@
         "jest": true,
         "es6": true
     },
-    "plugins": ["import", "react"],
-    "extends": ["plugin:prettier/recommended"],
+    "plugins": [
+        "import",
+        "react"
+    ],
     "parserOptions": {
         "ecmaVersion": 2018,
         "ecmaFeatures": {
